@@ -518,10 +518,6 @@ public class ExperimentalRobot extends Robot {
 		private int hitsLogsCapacity = 20;
 		private int targetsLogsCapacity = 100;
 
-		/**
-		 * Constructor
-		 * @param count
-		 */
 		public DataAnalyzer(int count) {
 			hitsData = new ArrayList<BulletHitLog>();
 			targetsData = new ArrayList[count];
@@ -551,10 +547,7 @@ public class ExperimentalRobot extends Robot {
 				return targetsData[robotIndex].get(logIndex);
 			}
 		}
-		/**
-		 * @param robotIndex
-		 * @return
-		 */
+
 		public BulletHitLog getHitLog(int robotIndex) {
 			return getHitLog(robotIndex, -1);
 		}
