@@ -1,14 +1,11 @@
 package sample;
 import robocode.*;
-
 import javax.xml.crypto.Data;
-
 import static robocode.util.Utils.normalRelativeAngleDegrees;
 import java.awt.Color;
 import java.util.*;
 import java.awt.geom.*;
 import java.util.EventListener;
-//import java.awt.Color;
 
 /**
  * Experimental Robot - a robot by Mirella Glowinska
