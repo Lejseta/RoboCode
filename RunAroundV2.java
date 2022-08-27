@@ -55,7 +55,6 @@ public class RunAroundV2 extends Robot
 	long globalTime;
     int moveCount = 0;
 
-
 	public void run()
 	{
 		// sets robot colour
